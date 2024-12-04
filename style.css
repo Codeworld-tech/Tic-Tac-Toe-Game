@@ -1,0 +1,78 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:opsz,wght@14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    background-color: #eadaa2;
+}
+h1{
+    font-family: "Bebas Neue", sans-serif;
+    margin-top: 30px;
+
+}
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width:  60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+.box{
+    height: 18vmin;
+    width: 18vmin;
+    border: none;
+    border-radius: 8px;
+    background-color: #960200;
+    color: #fff;
+    font-size: 3rem;
+    box-shadow:0 0 12px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+.reset-btn{
+    padding: 1rem;
+    border: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #241e4e;
+    cursor: pointer;
+}
+.new-btn{
+    padding: 0.9rem;
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    border-radius: 7px;
+    color: #fff;
+    background-color: #241e4e;
+    cursor: pointer;
+}
+.msg-container{
+    margin-bottom: 20px;
+}
+.msg{
+    color:#960200;
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+
+}
+.hide{
+    display: none;
+}
